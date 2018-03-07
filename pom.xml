@@ -64,6 +64,8 @@
                         <server.rmi.ssl.disable>true</server.rmi.ssl.disable>
                     </propertiesUser>
                     <jmeterExtensions>
+                        <artifact>kg.apc:jmeter-plugins-extras:1.4.0</artifact>
+                        <artifact>kg.apc:jmeter-plugins-standard:1.4.0</artifact>
                         <artifact>kg.apc:jmeter-plugins-autostop:0.1</artifact>
                         <artifact>kg.apc:jmeter-plugins-casutg:2.5</artifact>
                         <artifact>kg.apc:jmeter-plugins-csvars:0.1</artifact>
