@@ -57,7 +57,7 @@
                         <!--<java.rmi.server.hostname>172.22.1.23</java.rmi.server.hostname>-->
                     <!--</propertiesSystem>-->
                     <propertiesJMeter>
-                        <remote_hosts>10.168.141.76,10.168.142.128,10.168.139.126</remote_hosts>
+                        <remote_hosts>10.168.141.76</remote_hosts>
                         <client.rmi.localport>5060</client.rmi.localport>
                     </propertiesJMeter>
                     <propertiesUser>

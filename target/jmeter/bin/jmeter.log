@@ -1,54 +1,38 @@
-2018-03-07 16:48:22,755 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
-2018-03-07 16:48:22,769 INFO o.a.j.JMeter: Loading user properties from: user.properties
-2018-03-07 16:48:22,769 INFO o.a.j.JMeter: Loading system properties from: system.properties
-2018-03-07 16:48:22,776 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
-2018-03-07 16:48:22,776 INFO o.a.j.JMeter: Version 4.0 r1823414
-2018-03-07 16:48:22,776 INFO o.a.j.JMeter: java.version=1.8.0_151
-2018-03-07 16:48:22,776 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
-2018-03-07 16:48:22,777 INFO o.a.j.JMeter: os.name=Linux
-2018-03-07 16:48:22,777 INFO o.a.j.JMeter: os.arch=amd64
-2018-03-07 16:48:22,777 INFO o.a.j.JMeter: os.version=4.4.0-116-generic
-2018-03-07 16:48:22,777 INFO o.a.j.JMeter: file.encoding=UTF-8
-2018-03-07 16:48:22,777 INFO o.a.j.JMeter: Max memory     =3715629056
-2018-03-07 16:48:22,777 INFO o.a.j.JMeter: Available Processors =4
-2018-03-07 16:48:22,780 INFO o.a.j.JMeter: Default Locale=English (United States)
-2018-03-07 16:48:22,781 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
-2018-03-07 16:48:22,781 INFO o.a.j.JMeter: JMeterHome=/home/lusithaperera/Documents/Performance Scripts/SMX/GitSample/target/jmeter
-2018-03-07 16:48:22,781 INFO o.a.j.JMeter: user.dir  =/home/lusithaperera/Documents/Performance Scripts/SMX/GitSample/target/jmeter/bin
-2018-03-07 16:48:22,781 INFO o.a.j.JMeter: PWD       =/home/lusithaperera/Documents/Performance Scripts/SMX/GitSample/target/jmeter/bin
-2018-03-07 16:48:22,781 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: admin FullName: admin
-2018-03-07 16:48:23,002 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
-2018-03-07 16:48:23,054 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
-2018-03-07 16:48:23,055 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
-2018-03-07 16:48:23,055 WARN o.a.j.JMeter: Could not set LAF to: com.bulenkov.darcula.DarculaLaf
-java.lang.ClassNotFoundException: com.bulenkov.darcula.DarculaLaf
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_151]
-	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_151]
-	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_151]
-	at javax.swing.SwingUtilities.loadSystemClass(SwingUtilities.java:1874) ~[?:1.8.0_151]
-	at javax.swing.UIManager.setLookAndFeel(UIManager.java:582) ~[?:1.8.0_151]
-	at org.apache.jmeter.JMeter.startGui(JMeter.java:361) [ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.JMeter.start(JMeter.java:524) [ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
-	at org.apache.jmeter.NewDriver.main(NewDriver.java:245) [ApacheJMeter-4.0.jar:4.0 r1823414]
-2018-03-07 16:48:23,062 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2018-03-07 16:48:23,789 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2018-03-07 16:48:23,789 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2018-03-07 16:48:25,848 INFO k.a.j.JMeterPluginsUtils: JMeter-Plugins.org v.1.4.0
-2018-03-07 16:48:26,245 WARN o.a.j.g.u.MenuFactory: Configuration error, probably corrupt or missing third party library(jar)? Could not create class: kg.apc.jmeter.reporters.LoadosophiaUploaderGui.
-java.lang.NoClassDefFoundError: org/apache/commons/httpclient/methods/multipart/PartSource
+2018-04-10 09:14:59,658 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2018-04-10 09:14:59,690 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2018-04-10 09:14:59,696 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2018-04-10 09:14:59,702 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-04-10 09:14:59,702 INFO o.a.j.JMeter: Version 4.0 r1823414
+2018-04-10 09:14:59,702 INFO o.a.j.JMeter: java.version=1.8.0_162
+2018-04-10 09:14:59,702 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-04-10 09:14:59,702 INFO o.a.j.JMeter: os.name=Windows 10
+2018-04-10 09:14:59,703 INFO o.a.j.JMeter: os.arch=amd64
+2018-04-10 09:14:59,703 INFO o.a.j.JMeter: os.version=10.0
+2018-04-10 09:14:59,703 INFO o.a.j.JMeter: file.encoding=Cp1252
+2018-04-10 09:14:59,703 INFO o.a.j.JMeter: Max memory     =3793747968
+2018-04-10 09:14:59,703 INFO o.a.j.JMeter: Available Processors =4
+2018-04-10 09:14:59,706 INFO o.a.j.JMeter: Default Locale=English (United States)
+2018-04-10 09:14:59,706 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2018-04-10 09:14:59,706 INFO o.a.j.JMeter: JMeterHome=E:\test\temp1\target\jmeter
+2018-04-10 09:14:59,706 INFO o.a.j.JMeter: user.dir  =E:\test\temp1\target\jmeter\bin
+2018-04-10 09:14:59,706 INFO o.a.j.JMeter: PWD       =E:\test\temp1\target\jmeter\bin
+2018-04-10 09:14:59,813 INFO o.a.j.JMeter: IP: 10.1.10.105 Name: DESKTOP-C8KGGNB FullName: 10.1.10.105
+2018-04-10 09:15:00,127 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2018-04-10 09:15:00,144 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.sun.java.swing.plaf.windows.WindowsLookAndFeel [Darcula]
+2018-04-10 09:15:00,144 INFO o.a.j.JMeter: Setting LAF to: com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+2018-04-10 09:15:00,159 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2018-04-10 09:15:01,009 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-04-10 09:15:01,009 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-04-10 09:15:03,099 INFO k.a.j.JMeterPluginsUtils: JMeter-Plugins.org v.1.4.0
+2018-04-10 09:15:03,497 WARN o.a.j.g.u.MenuFactory: Configuration error, probably corrupt or missing third party library(jar)? Could not create class: kg.apc.jmeter.reporters.LoadosophiaUploaderGui.
+java.lang.NoClassDefFoundError: org/apache/commons/httpclient/methods/RequestEntity
 	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.init(LoadosophiaUploaderGui.java:114) ~[jmeter-plugins-standard-1.4.0.jar:?]
 	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.<init>(LoadosophiaUploaderGui.java:28) ~[jmeter-plugins-standard-1.4.0.jar:?]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_151]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_151]
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_151]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_151]
-	at java.lang.Class.newInstance(Class.java:442) ~[?:1.8.0_151]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_162]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_162]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.Class.newInstance(Unknown Source) ~[?:1.8.0_162]
 	at org.apache.jmeter.gui.util.MenuFactory.getGUIComponent(MenuFactory.java:174) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
 	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:141) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
 	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:106) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
@@ -57,221 +41,113 @@ java.lang.NoClassDefFoundError: org/apache/commons/httpclient/methods/multipart/
 	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
 	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:88) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
 	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:70) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_151]
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756) [?:1.8.0_151]
-	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_151]
-	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_151]
-	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_151]
-	at java.security.AccessController.doPrivileged(Native Method) [?:1.8.0_151]
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [?:1.8.0_151]
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726) [?:1.8.0_151]
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [?:1.8.0_151]
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_151]
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_151]
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_151]
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_151]
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_151]
-Caused by: java.lang.ClassNotFoundException: org.apache.commons.httpclient.methods.multipart.PartSource
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_151]
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_162]
+	at java.security.AccessController.doPrivileged(Native Method) [?:1.8.0_162]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_162]
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.httpclient.methods.RequestEntity
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
 	... 29 more
-2018-03-07 16:48:27,591 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-03-07 16:48:27,591 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-03-07 16:48:27,591 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-03-07 16:48:27,591 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-03-07 16:48:27,592 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2018-03-07 16:48:27,592 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2018-03-07 16:48:27,842 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
-2018-03-07 16:48:27,842 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /home/lusithaperera/Documents/Performance Scripts/SMX/GitSample/target/jmeter/bin/proxyserver.jks
-2018-03-07 16:48:27,992 INFO o.a.j.s.FileServer: Default base='/home/lusithaperera/Documents/Performance Scripts/SMX/GitSample/target/jmeter/bin'
-2018-03-07 16:48:28,260 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2018-03-07 16:48:28,260 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2018-03-07 16:48:28,260 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2018-03-07 16:48:28,260 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2018-03-07 16:48:28,279 WARN o.a.j.v.ViewResultsFullVisualizer: Error loading result renderer: org.apache.jmeter.visualizers.RenderInBrowser
-java.lang.NoClassDefFoundError: javafx/embed/swing/JFXPanel
-	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_151]
-	at java.lang.Class.forName(Class.java:264) ~[?:1.8.0_151]
-	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createComboRender(ViewResultsFullVisualizer.java:462) ~[ApacheJMeter_components-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createLeftPanel(ViewResultsFullVisualizer.java:430) ~[ApacheJMeter_components-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.init(ViewResultsFullVisualizer.java:342) ~[ApacheJMeter_components-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.<init>(ViewResultsFullVisualizer.java:147) ~[ApacheJMeter_components-4.0.jar:4.0 r1823414]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_151]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_151]
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_151]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_151]
-	at java.lang.Class.newInstance(Class.java:442) ~[?:1.8.0_151]
-	at org.apache.jmeter.gui.util.MenuFactory.getGUIComponent(MenuFactory.java:174) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:141) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:106) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.control.gui.TestPlanGui.createPopupMenu(TestPlanGui.java:92) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:155) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:88) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:70) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_151]
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756) [?:1.8.0_151]
-	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_151]
-	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_151]
-	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_151]
-	at java.security.AccessController.doPrivileged(Native Method) [?:1.8.0_151]
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [?:1.8.0_151]
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726) [?:1.8.0_151]
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [?:1.8.0_151]
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_151]
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_151]
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_151]
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_151]
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_151]
-Caused by: java.lang.ClassNotFoundException: javafx.embed.swing.JFXPanel
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_151]
-	... 33 more
-2018-03-07 16:48:29,016 WARN o.j.r.Plugin: Unable to load class: kg.apc.cmdtools.ReporterTool
+2018-04-10 09:15:04,283 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-04-10 09:15:04,283 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-04-10 09:15:04,283 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-04-10 09:15:04,283 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-04-10 09:15:04,283 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-04-10 09:15:04,283 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-04-10 09:15:04,620 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2018-04-10 09:15:04,620 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file E:\test\temp1\target\jmeter\bin\proxyserver.jks
+2018-04-10 09:15:04,794 INFO o.a.j.s.FileServer: Default base='E:\test\temp1\target\jmeter\bin'
+2018-04-10 09:15:05,200 WARN o.j.r.Plugin: Unable to load class: kg.apc.cmdtools.ReporterTool
 java.lang.NoClassDefFoundError: kg/apc/cmdtools/AbstractCMDTool
-	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.defineClass(ClassLoader.java:763) ~[?:1.8.0_151]
-	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_151]
-	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467) ~[?:1.8.0_151]
-	at java.net.URLClassLoader.access$100(URLClassLoader.java:73) ~[?:1.8.0_151]
-	at java.net.URLClassLoader$1.run(URLClassLoader.java:368) ~[?:1.8.0_151]
-	at java.net.URLClassLoader$1.run(URLClassLoader.java:362) ~[?:1.8.0_151]
-	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_151]
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:361) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_151]
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
+	at java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader.access$100(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[?:1.8.0_162]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_162]
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
 	at org.jmeterplugins.repository.Plugin.getJARPath(Plugin.java:193) [jmeter-plugins-manager-0.19.jar:?]
 	at org.jmeterplugins.repository.Plugin.detectInstalledPlugin(Plugin.java:107) [jmeter-plugins-manager-0.19.jar:?]
 	at org.jmeterplugins.repository.Plugin.detectInstalled(Plugin.java:96) [jmeter-plugins-manager-0.19.jar:?]
 	at org.jmeterplugins.repository.PluginManager.load(PluginManager.java:84) [jmeter-plugins-manager-0.19.jar:?]
 	at org.jmeterplugins.repository.PluginManagerMenuItem$1.run(PluginManagerMenuItem.java:41) [jmeter-plugins-manager-0.19.jar:?]
 Caused by: java.lang.ClassNotFoundException: kg.apc.cmdtools.AbstractCMDTool
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_151]
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
 	... 16 more
-2018-03-07 16:48:29,018 WARN o.j.r.Plugin: Unable to load class: kg.apc.cmdtools.FilterResultsTool
+2018-04-10 09:15:05,210 WARN o.j.r.Plugin: Unable to load class: kg.apc.cmdtools.FilterResultsTool
 java.lang.NoClassDefFoundError: kg/apc/cmdtools/AbstractCMDTool
-	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.defineClass(ClassLoader.java:763) ~[?:1.8.0_151]
-	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_151]
-	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467) ~[?:1.8.0_151]
-	at java.net.URLClassLoader.access$100(URLClassLoader.java:73) ~[?:1.8.0_151]
-	at java.net.URLClassLoader$1.run(URLClassLoader.java:368) ~[?:1.8.0_151]
-	at java.net.URLClassLoader$1.run(URLClassLoader.java:362) ~[?:1.8.0_151]
-	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_151]
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:361) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_151]
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
+	at java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader.access$100(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[?:1.8.0_162]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_162]
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
 	at org.jmeterplugins.repository.Plugin.getJARPath(Plugin.java:193) [jmeter-plugins-manager-0.19.jar:?]
 	at org.jmeterplugins.repository.Plugin.detectInstalledPlugin(Plugin.java:107) [jmeter-plugins-manager-0.19.jar:?]
 	at org.jmeterplugins.repository.Plugin.detectInstalled(Plugin.java:96) [jmeter-plugins-manager-0.19.jar:?]
 	at org.jmeterplugins.repository.PluginManager.load(PluginManager.java:84) [jmeter-plugins-manager-0.19.jar:?]
 	at org.jmeterplugins.repository.PluginManagerMenuItem$1.run(PluginManagerMenuItem.java:41) [jmeter-plugins-manager-0.19.jar:?]
 Caused by: java.lang.ClassNotFoundException: kg.apc.cmdtools.AbstractCMDTool
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_151]
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
 	... 16 more
-2018-03-07 16:48:29,020 WARN o.j.r.Plugin: Unable to load class: kg.apc.cmdtools.TestPlanCheckTool
+2018-04-10 09:15:05,210 WARN o.j.r.Plugin: Unable to load class: kg.apc.cmdtools.TestPlanCheckTool
 java.lang.NoClassDefFoundError: kg/apc/cmdtools/AbstractCMDTool
-	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.defineClass(ClassLoader.java:763) ~[?:1.8.0_151]
-	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_151]
-	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467) ~[?:1.8.0_151]
-	at java.net.URLClassLoader.access$100(URLClassLoader.java:73) ~[?:1.8.0_151]
-	at java.net.URLClassLoader$1.run(URLClassLoader.java:368) ~[?:1.8.0_151]
-	at java.net.URLClassLoader$1.run(URLClassLoader.java:362) ~[?:1.8.0_151]
-	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_151]
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:361) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_151]
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
+	at java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader.access$100(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[?:1.8.0_162]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_162]
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
 	at org.jmeterplugins.repository.Plugin.getJARPath(Plugin.java:193) [jmeter-plugins-manager-0.19.jar:?]
 	at org.jmeterplugins.repository.Plugin.detectInstalledPlugin(Plugin.java:107) [jmeter-plugins-manager-0.19.jar:?]
 	at org.jmeterplugins.repository.Plugin.detectInstalled(Plugin.java:96) [jmeter-plugins-manager-0.19.jar:?]
 	at org.jmeterplugins.repository.PluginManager.load(PluginManager.java:84) [jmeter-plugins-manager-0.19.jar:?]
 	at org.jmeterplugins.repository.PluginManagerMenuItem$1.run(PluginManagerMenuItem.java:41) [jmeter-plugins-manager-0.19.jar:?]
 Caused by: java.lang.ClassNotFoundException: kg.apc.cmdtools.AbstractCMDTool
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_151]
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
 	... 16 more
-2018-03-07 16:48:29,430 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=1.4.0, jpgc-graphs-additional=1.4.0, jpgc-autostop=0.1, jpgc-sense=1.4.0, jpgc-graphs-composite=1.4.0, jpgc-csl=1.4.0, jpgc-functions=2.0, jpgc-casutg=2.5, jpgc-dbmon=1.4.0, jpgc-graphs-dist=1.4.0, jpgc-dummy=1.4.0, jpgc-ffw=1.4.0, jpgc-ggl=1.4.0, jpgc-httpraw=1.4.0, jpgc-sts=1.4.0, jpgc-fifo=1.4.0, jpgc-jmxmon=1.4.0, jpgc-graphs-vs=1.4.0, jpgc-lockfile=1.4.0, jpgc-mergeresults=1.4.0, jpgc-pde=1.4.0, jpgc-prmctl=1.4.0, jpgc-perfmon=2.1, jpgc-plugins-manager=0.19, jpgc-webdriver=2.3, jpgc-synthesis=1.4.0, jpgc-tst=1.4.0, jpgc-udp=1.4.0, jpgc-csvars=0.1, jpgc-wsc=1.4.0, jpgc-xml=1.4.0, jmeter-core=4.0, jmeter-ftp=4.0, jmeter-http=4.0, jmeter-jdbc=4.0, jmeter-jms=4.0, jmeter-junit=4.0, jmeter-java=4.0, jmeter-ldap=4.0, jmeter-mail=4.0, jmeter-mongodb=4.0, jmeter-native=4.0, jmeter-tcp=4.0, jmeter-components=4.0, jpgc-standard=2.0]
-2018-03-07 16:48:29,433 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-graphs-basic, jpgc-graphs-additional, jpgc-sense, jpgc-graphs-composite, jpgc-graphs-dist, jpgc-ffw, jpgc-ggl, jpgc-sts, jpgc-graphs-vs, jpgc-mergeresults, jpgc-synthesis, jpgc-tst]
-2018-03-07 16:49:08,340 INFO o.a.j.g.a.Load: Loading file: /home/lusithaperera/Documents/SMX/SMXScripts/SMX_DryRunScenario.jmx
-2018-03-07 16:49:08,340 INFO o.a.j.s.FileServer: Set new base='/home/lusithaperera/Documents/SMX/SMXScripts'
-2018-03-07 16:49:08,488 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2018-03-07 16:49:08,493 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2018-03-07 16:49:08,495 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
-2018-03-07 16:49:08,497 INFO o.a.j.s.SaveService: Loading file: /home/lusithaperera/Documents/SMX/SMXScripts/SMX_DryRunScenario.jmx
-2018-03-07 16:49:08,973 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
-2018-03-07 16:49:08,974 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
-2018-03-07 16:49:10,522 WARN o.a.j.v.ViewResultsFullVisualizer: Error loading result renderer: org.apache.jmeter.visualizers.RenderInBrowser
-java.lang.NoClassDefFoundError: javafx/embed/swing/JFXPanel
-	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_151]
-	at java.lang.Class.forName(Class.java:264) ~[?:1.8.0_151]
-	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createComboRender(ViewResultsFullVisualizer.java:462) [ApacheJMeter_components-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createLeftPanel(ViewResultsFullVisualizer.java:430) [ApacheJMeter_components-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.init(ViewResultsFullVisualizer.java:342) [ApacheJMeter_components-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.<init>(ViewResultsFullVisualizer.java:147) [ApacheJMeter_components-4.0.jar:4.0 r1823414]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [?:1.8.0_151]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [?:1.8.0_151]
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [?:1.8.0_151]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) [?:1.8.0_151]
-	at java.lang.Class.newInstance(Class.java:442) [?:1.8.0_151]
-	at org.apache.jmeter.gui.GuiPackage.getGuiFromCache(GuiPackage.java:405) [ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.gui.GuiPackage.getGui(GuiPackage.java:251) [ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.gui.GuiPackage.getGui(GuiPackage.java:222) [ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.gui.tree.JMeterTreeModel.addComponent(JMeterTreeModel.java:157) [ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:133) [ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:125) [ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.gui.GuiPackage.addSubTree(GuiPackage.java:522) [ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.gui.action.Load.insertLoadedTree(Load.java:193) [ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:130) [ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:101) [ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.gui.action.LoadDraggedFile.loadProject(LoadDraggedFile.java:38) [ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.gui.MainFrame.openJmxFilesFromDragAndDrop(MainFrame.java:802) [ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at org.apache.jmeter.gui.tree.JMeterTreeTransferHandler.importData(JMeterTreeTransferHandler.java:216) [ApacheJMeter_core-4.0.jar:4.0 r1823414]
-	at javax.swing.TransferHandler$DropHandler.drop(TransferHandler.java:1544) [?:1.8.0_151]
-	at java.awt.dnd.DropTarget.drop(DropTarget.java:455) [?:1.8.0_151]
-	at javax.swing.TransferHandler$SwingDropTarget.drop(TransferHandler.java:1282) [?:1.8.0_151]
-	at sun.awt.dnd.SunDropTargetContextPeer.processDropMessage(SunDropTargetContextPeer.java:538) [?:1.8.0_151]
-	at sun.awt.X11.XDropTargetContextPeer.processDropMessage(XDropTargetContextPeer.java:184) [?:1.8.0_151]
-	at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchDropEvent(SunDropTargetContextPeer.java:852) [?:1.8.0_151]
-	at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchEvent(SunDropTargetContextPeer.java:776) [?:1.8.0_151]
-	at sun.awt.dnd.SunDropTargetEvent.dispatch(SunDropTargetEvent.java:48) [?:1.8.0_151]
-	at java.awt.Component.dispatchEventImpl(Component.java:4744) [?:1.8.0_151]
-	at java.awt.Container.dispatchEventImpl(Container.java:2294) [?:1.8.0_151]
-	at java.awt.Component.dispatchEvent(Component.java:4711) [?:1.8.0_151]
-	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) [?:1.8.0_151]
-	at java.awt.LightweightDispatcher.processDropTargetEvent(Container.java:4599) [?:1.8.0_151]
-	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4461) [?:1.8.0_151]
-	at java.awt.Container.dispatchEventImpl(Container.java:2280) [?:1.8.0_151]
-	at java.awt.Window.dispatchEventImpl(Window.java:2746) [?:1.8.0_151]
-	at java.awt.Component.dispatchEvent(Component.java:4711) [?:1.8.0_151]
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_151]
-	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_151]
-	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_151]
-	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_151]
-	at java.security.AccessController.doPrivileged(Native Method) [?:1.8.0_151]
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [?:1.8.0_151]
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) [?:1.8.0_151]
-	at java.awt.EventQueue$4.run(EventQueue.java:731) [?:1.8.0_151]
-	at java.awt.EventQueue$4.run(EventQueue.java:729) [?:1.8.0_151]
-	at java.security.AccessController.doPrivileged(Native Method) [?:1.8.0_151]
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [?:1.8.0_151]
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_151]
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [?:1.8.0_151]
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_151]
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_151]
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_151]
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_151]
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_151]
-Caused by: java.lang.ClassNotFoundException: javafx.embed.swing.JFXPanel
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_151]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_151]
-	... 59 more
-2018-03-07 16:49:10,678 INFO o.a.j.s.FileServer: Set new base='/home/lusithaperera/Documents/SMX/SMXScripts'
+2018-04-10 09:15:05,668 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-04-10 09:15:05,669 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-04-10 09:15:05,669 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-04-10 09:15:05,669 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-04-10 09:15:06,006 INFO o.a.j.g.a.Load: Loading file: E:\test\temp1\src\test\jmeter\Summary Report.jmx
+2018-04-10 09:15:06,006 INFO o.a.j.s.FileServer: Set new base='E:\test\temp1\src\test\jmeter'
+2018-04-10 09:15:06,163 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-04-10 09:15:06,172 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-04-10 09:15:06,172 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2018-04-10 09:15:06,176 INFO o.a.j.s.SaveService: Loading file: E:\test\temp1\src\test\jmeter\Summary Report.jmx
+2018-04-10 09:15:06,409 INFO o.a.j.s.FileServer: Set new base='E:\test\temp1\src\test\jmeter'
+2018-04-10 09:15:11,307 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=1.4.0, jpgc-graphs-additional=1.4.0, jpgc-autostop=0.1, jpgc-sense=1.4.0, jpgc-graphs-composite=1.4.0, jpgc-csl=1.4.0, jpgc-functions=2.0, jpgc-casutg=2.5, jpgc-dbmon=1.4.0, jpgc-graphs-dist=1.4.0, jpgc-dummy=1.4.0, jpgc-ffw=1.4.0, jpgc-ggl=1.4.0, jpgc-httpraw=1.4.0, jpgc-sts=1.4.0, jpgc-fifo=1.4.0, jpgc-jmxmon=1.4.0, jpgc-graphs-vs=1.4.0, jpgc-lockfile=1.4.0, jpgc-mergeresults=1.4.0, jpgc-pde=1.4.0, jpgc-prmctl=1.4.0, jpgc-perfmon=2.1, jpgc-plugins-manager=0.19, jpgc-webdriver=2.3, jpgc-synthesis=1.4.0, jpgc-tst=1.4.0, jpgc-udp=1.4.0, jpgc-csvars=0.1, jpgc-wsc=1.4.0, jpgc-xml=1.4.0, jmeter-core=4.0, jmeter-ftp=4.0, jmeter-http=4.0, jmeter-jdbc=4.0, jmeter-jms=4.0, jmeter-junit=4.0, jmeter-java=4.0, jmeter-ldap=4.0, jmeter-mail=4.0, jmeter-mongodb=4.0, jmeter-native=4.0, jmeter-tcp=4.0, jmeter-components=4.0, jpgc-standard=2.0]
+2018-04-10 09:15:11,311 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-graphs-basic, jpgc-graphs-additional, jpgc-sense, jpgc-graphs-composite, jpgc-graphs-dist, jpgc-ffw, jpgc-ggl, jpgc-sts, jpgc-graphs-vs, jpgc-mergeresults, jpgc-plugins-manager, jpgc-synthesis, jpgc-tst]
