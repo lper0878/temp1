@@ -1,36 +1,36 @@
-2018-04-11 10:48:42,382 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
-2018-04-11 10:48:42,403 INFO o.a.j.JMeter: Loading user properties from: user.properties
-2018-04-11 10:48:42,404 INFO o.a.j.JMeter: Loading system properties from: system.properties
-2018-04-11 10:48:42,411 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
-2018-04-11 10:48:42,412 INFO o.a.j.JMeter: Version 4.0 r1823414
-2018-04-11 10:48:42,412 INFO o.a.j.JMeter: java.version=1.8.0_162
-2018-04-11 10:48:42,412 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2018-04-11 10:48:42,412 INFO o.a.j.JMeter: os.name=Windows 10
-2018-04-11 10:48:42,412 INFO o.a.j.JMeter: os.arch=amd64
-2018-04-11 10:48:42,412 INFO o.a.j.JMeter: os.version=10.0
-2018-04-11 10:48:42,412 INFO o.a.j.JMeter: file.encoding=Cp1252
-2018-04-11 10:48:42,412 INFO o.a.j.JMeter: Max memory     =3793747968
-2018-04-11 10:48:42,412 INFO o.a.j.JMeter: Available Processors =4
-2018-04-11 10:48:42,417 INFO o.a.j.JMeter: Default Locale=English (United States)
-2018-04-11 10:48:42,417 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
-2018-04-11 10:48:42,417 INFO o.a.j.JMeter: JMeterHome=E:\GoCDJMeter\temp1\target\jmeter
-2018-04-11 10:48:42,417 INFO o.a.j.JMeter: user.dir  =E:\GoCDJMeter\temp1\target\jmeter\bin
-2018-04-11 10:48:42,417 INFO o.a.j.JMeter: PWD       =E:\GoCDJMeter\temp1\target\jmeter\bin
-2018-04-11 10:48:42,489 INFO o.a.j.JMeter: IP: 10.1.10.105 Name: DESKTOP-C8KGGNB FullName: 10.1.10.105
-2018-04-11 10:48:42,930 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
-2018-04-11 10:48:42,960 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.sun.java.swing.plaf.windows.WindowsLookAndFeel [Darcula]
-2018-04-11 10:48:42,961 INFO o.a.j.JMeter: Setting LAF to: com.sun.java.swing.plaf.windows.WindowsLookAndFeel
-2018-04-11 10:48:42,988 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2018-04-11 10:48:43,992 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2018-04-11 10:48:43,992 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2018-04-11 10:48:46,240 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-04-11 10:48:46,241 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-04-11 10:48:46,241 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-04-11 10:48:46,241 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-04-11 10:48:46,241 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2018-04-11 10:48:46,241 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2018-04-11 10:48:46,821 WARN o.a.j.g.u.MenuFactory: Configuration error, probably corrupt or missing third party library(jar)? Could not create class: kg.apc.jmeter.reporters.LoadosophiaUploaderGui.
-java.lang.NoClassDefFoundError: org/apache/commons/httpclient/methods/multipart/PartSource
+2018-04-11 12:36:09,112 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2018-04-11 12:36:09,130 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2018-04-11 12:36:09,130 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2018-04-11 12:36:09,138 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-04-11 12:36:09,138 INFO o.a.j.JMeter: Version 4.0 r1823414
+2018-04-11 12:36:09,138 INFO o.a.j.JMeter: java.version=1.8.0_162
+2018-04-11 12:36:09,138 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-04-11 12:36:09,138 INFO o.a.j.JMeter: os.name=Windows 10
+2018-04-11 12:36:09,138 INFO o.a.j.JMeter: os.arch=amd64
+2018-04-11 12:36:09,138 INFO o.a.j.JMeter: os.version=10.0
+2018-04-11 12:36:09,138 INFO o.a.j.JMeter: file.encoding=Cp1252
+2018-04-11 12:36:09,138 INFO o.a.j.JMeter: Max memory     =3793747968
+2018-04-11 12:36:09,139 INFO o.a.j.JMeter: Available Processors =4
+2018-04-11 12:36:09,142 INFO o.a.j.JMeter: Default Locale=English (United States)
+2018-04-11 12:36:09,143 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2018-04-11 12:36:09,143 INFO o.a.j.JMeter: JMeterHome=E:\GoCDJMeter\temp1\target\jmeter
+2018-04-11 12:36:09,143 INFO o.a.j.JMeter: user.dir  =E:\GoCDJMeter\temp1\target\jmeter\bin
+2018-04-11 12:36:09,143 INFO o.a.j.JMeter: PWD       =E:\GoCDJMeter\temp1\target\jmeter\bin
+2018-04-11 12:36:09,508 INFO o.a.j.JMeter: IP: 10.97.55.8 Name: DESKTOP-C8KGGNB FullName: 10.97.55.8
+2018-04-11 12:36:09,781 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2018-04-11 12:36:09,804 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.sun.java.swing.plaf.windows.WindowsLookAndFeel [Darcula]
+2018-04-11 12:36:09,805 INFO o.a.j.JMeter: Setting LAF to: com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+2018-04-11 12:36:09,828 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2018-04-11 12:36:10,682 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-04-11 12:36:10,682 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-04-11 12:36:12,758 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-04-11 12:36:12,759 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-04-11 12:36:12,759 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-04-11 12:36:12,759 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-04-11 12:36:12,759 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-04-11 12:36:12,759 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-04-11 12:36:13,196 WARN o.a.j.g.u.MenuFactory: Configuration error, probably corrupt or missing third party library(jar)? Could not create class: kg.apc.jmeter.reporters.LoadosophiaUploaderGui.
+java.lang.NoClassDefFoundError: org/apache/commons/httpclient/methods/RequestEntity
 	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.init(LoadosophiaUploaderGui.java:114) ~[jmeter-plugins-standard-1.4.0.jar:?]
 	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.<init>(LoadosophiaUploaderGui.java:28) ~[jmeter-plugins-standard-1.4.0.jar:?]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_162]
@@ -60,15 +60,15 @@ java.lang.NoClassDefFoundError: org/apache/commons/httpclient/methods/multipart/
 	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_162]
 	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_162]
 	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_162]
-Caused by: java.lang.ClassNotFoundException: org.apache.commons.httpclient.methods.multipart.PartSource
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.httpclient.methods.RequestEntity
 	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_162]
 	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
 	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
 	... 29 more
-2018-04-11 10:48:48,065 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
-2018-04-11 10:48:48,066 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file E:\GoCDJMeter\temp1\target\jmeter\bin\proxyserver.jks
-2018-04-11 10:48:48,222 INFO o.a.j.s.FileServer: Default base='E:\GoCDJMeter\temp1\target\jmeter\bin'
-2018-04-11 10:48:48,462 WARN o.j.r.Plugin: Unable to load class: kg.apc.cmdtools.ReporterTool
+2018-04-11 12:36:14,740 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2018-04-11 12:36:14,741 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file E:\GoCDJMeter\temp1\target\jmeter\bin\proxyserver.jks
+2018-04-11 12:36:14,962 INFO o.a.j.s.FileServer: Default base='E:\GoCDJMeter\temp1\target\jmeter\bin'
+2018-04-11 12:36:15,491 WARN o.j.r.Plugin: Unable to load class: kg.apc.cmdtools.ReporterTool
 java.lang.NoClassDefFoundError: kg/apc/cmdtools/AbstractCMDTool
 	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_162]
 	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
@@ -91,7 +91,7 @@ Caused by: java.lang.ClassNotFoundException: kg.apc.cmdtools.AbstractCMDTool
 	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
 	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
 	... 16 more
-2018-04-11 10:48:48,465 WARN o.j.r.Plugin: Unable to load class: kg.apc.cmdtools.FilterResultsTool
+2018-04-11 12:36:15,491 WARN o.j.r.Plugin: Unable to load class: kg.apc.cmdtools.FilterResultsTool
 java.lang.NoClassDefFoundError: kg/apc/cmdtools/AbstractCMDTool
 	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_162]
 	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
@@ -114,7 +114,7 @@ Caused by: java.lang.ClassNotFoundException: kg.apc.cmdtools.AbstractCMDTool
 	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
 	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
 	... 16 more
-2018-04-11 10:48:48,467 WARN o.j.r.Plugin: Unable to load class: kg.apc.cmdtools.TestPlanCheckTool
+2018-04-11 12:36:15,500 WARN o.j.r.Plugin: Unable to load class: kg.apc.cmdtools.TestPlanCheckTool
 java.lang.NoClassDefFoundError: kg/apc/cmdtools/AbstractCMDTool
 	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_162]
 	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
@@ -137,18 +137,16 @@ Caused by: java.lang.ClassNotFoundException: kg.apc.cmdtools.AbstractCMDTool
 	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
 	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
 	... 16 more
-2018-04-11 10:48:49,081 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2018-04-11 10:48:49,081 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2018-04-11 10:48:49,081 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2018-04-11 10:48:49,081 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2018-04-11 10:48:50,524 INFO o.a.j.g.a.Load: Loading file: E:\GoCDJMeter\temp1\src\test\jmeter\SMX_DryRunScenario_Modified.jmx
-2018-04-11 10:48:50,524 INFO o.a.j.s.FileServer: Set new base='E:\GoCDJMeter\temp1\src\test\jmeter'
-2018-04-11 10:48:50,668 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2018-04-11 10:48:50,671 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2018-04-11 10:48:50,672 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
-2018-04-11 10:48:50,676 INFO o.a.j.s.SaveService: Loading file: E:\GoCDJMeter\temp1\src\test\jmeter\SMX_DryRunScenario_Modified.jmx
-2018-04-11 10:48:51,176 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
-2018-04-11 10:48:51,177 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
-2018-04-11 10:48:52,716 INFO o.a.j.s.FileServer: Set new base='E:\GoCDJMeter\temp1\src\test\jmeter'
-2018-04-11 10:48:54,305 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=1.4.0, jpgc-graphs-additional=1.4.0, jpgc-autostop=0.1, jpgc-sense=1.4.0, jpgc-graphs-composite=1.4.0, jpgc-csl=1.4.0, jpgc-functions=2.0, jpgc-casutg=2.5, jpgc-dbmon=1.4.0, jpgc-graphs-dist=1.4.0, jpgc-dummy=1.4.0, jpgc-ffw=1.4.0, jpgc-ggl=1.4.0, jpgc-httpraw=1.4.0, jpgc-sts=1.4.0, jpgc-fifo=1.4.0, jpgc-jmxmon=1.4.0, jpgc-graphs-vs=1.4.0, jpgc-lockfile=1.4.0, jpgc-mergeresults=1.4.0, jpgc-pde=1.4.0, bzm-parallel=0.4, jpgc-prmctl=1.4.0, jpgc-perfmon=2.1, jpgc-plugins-manager=0.19, jpgc-webdriver=2.3, jpgc-synthesis=1.4.0, jpgc-tst=1.4.0, jpgc-udp=1.4.0, jpgc-csvars=0.1, jpgc-wsc=1.4.0, jpgc-xml=1.4.0, jmeter-core=4.0, jmeter-ftp=4.0, jmeter-http=4.0, jmeter-jdbc=4.0, jmeter-jms=4.0, jmeter-junit=4.0, jmeter-java=4.0, jmeter-ldap=4.0, jmeter-mail=4.0, jmeter-mongodb=4.0, jmeter-native=4.0, jmeter-tcp=4.0, jmeter-components=4.0, jpgc-standard=2.0]
-2018-04-11 10:48:54,308 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-graphs-basic, jpgc-graphs-additional, jpgc-sense, jpgc-graphs-composite, jpgc-graphs-dist, jpgc-ffw, jpgc-ggl, jpgc-sts, jpgc-graphs-vs, jpgc-mergeresults, jpgc-plugins-manager, jpgc-synthesis, jpgc-tst]
+2018-04-11 12:36:16,325 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-04-11 12:36:16,326 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-04-11 12:36:16,326 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-04-11 12:36:16,326 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-04-11 12:36:16,402 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=1.4.0, jpgc-graphs-additional=1.4.0, jpgc-autostop=0.1, jpgc-sense=1.4.0, jpgc-graphs-composite=1.4.0, jpgc-csl=1.4.0, jpgc-functions=2.0, jpgc-casutg=2.5, jpgc-dbmon=1.4.0, jpgc-graphs-dist=1.4.0, jpgc-dummy=1.4.0, jpgc-ffw=1.4.0, jpgc-ggl=1.4.0, jpgc-httpraw=1.4.0, jpgc-sts=1.4.0, jpgc-fifo=1.4.0, jpgc-jmxmon=1.4.0, jpgc-graphs-vs=1.4.0, jpgc-lockfile=1.4.0, jpgc-mergeresults=1.4.0, jpgc-pde=1.4.0, bzm-parallel=0.4, jpgc-prmctl=1.4.0, jpgc-perfmon=2.1, jpgc-plugins-manager=0.19, jpgc-webdriver=2.3, jpgc-synthesis=1.4.0, jpgc-tst=1.4.0, jpgc-udp=1.4.0, jpgc-csvars=0.1, jpgc-wsc=1.4.0, jpgc-xml=1.4.0, jmeter-core=4.0, jmeter-ftp=4.0, jmeter-http=4.0, jmeter-jdbc=4.0, jmeter-jms=4.0, jmeter-junit=4.0, jmeter-java=4.0, jmeter-ldap=4.0, jmeter-mail=4.0, jmeter-mongodb=4.0, jmeter-native=4.0, jmeter-tcp=4.0, jmeter-components=4.0, jpgc-standard=2.0]
+2018-04-11 12:36:16,406 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-graphs-basic, jpgc-graphs-additional, jpgc-sense, jpgc-graphs-composite, jpgc-graphs-dist, jpgc-ffw, jpgc-ggl, jpgc-sts, jpgc-graphs-vs, jpgc-mergeresults, jpgc-plugins-manager, jpgc-synthesis, jpgc-tst]
+2018-04-11 12:36:23,601 INFO o.a.j.g.a.Load: Loading file: E:\GoCDJMeter\temp1\src\test\jmeter\Sample_Test.jmx
+2018-04-11 12:36:23,602 INFO o.a.j.s.FileServer: Set new base='E:\GoCDJMeter\temp1\src\test\jmeter'
+2018-04-11 12:36:23,733 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-04-11 12:36:23,737 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-04-11 12:36:23,740 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2018-04-11 12:36:23,743 INFO o.a.j.s.SaveService: Loading file: E:\GoCDJMeter\temp1\src\test\jmeter\Sample_Test.jmx
+2018-04-11 12:36:23,941 INFO o.a.j.s.FileServer: Set new base='E:\GoCDJMeter\temp1\src\test\jmeter'

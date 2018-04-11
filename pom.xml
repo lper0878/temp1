@@ -47,7 +47,7 @@
                 </dependencies>
                 <configuration>
                     <testFilesIncluded>
-                        <jMeterTestFile>SMX_DryRunScenario_Modified.jmx</jMeterTestFile>
+                        <jMeterTestFile>Sample_Test.jmx</jMeterTestFile>
                     </testFilesIncluded>
                     <remoteConfig>
                         <startServersBeforeTests>true</startServersBeforeTests>
